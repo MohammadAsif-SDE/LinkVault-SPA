@@ -1,7 +1,7 @@
-<h1 align="center">LinkFolder</h1>
+<h1 align="center">Link Vault</h1>
 
 <p align="center">
-  A polished landing page for a Chrome extension that helps people save, organize, and share links beautifully.
+  A polished landing page that helps people save, organize, and share links beautifully.
 </p>
 
 <p align="center">
