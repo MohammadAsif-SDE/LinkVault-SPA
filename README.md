@@ -207,7 +207,3 @@ The 3D showcase requires WebGL. The page remains usable as a marketing layout in
 - `FeaturesSection` and `SocialProof` are available as components but are currently not mounted in `App.tsx`.
 - The displayed metrics and pricing information are static demo content.
 - The app respects `prefers-reduced-motion` by disabling the Lenis animation loop when reduced motion is requested.
-
-## License
-
-No project-wide license has been declared yet. Add a license before distributing the project publicly.
