@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "LinkFolder - Save Links Beautifully"
+version = "1.0.0"
+id = "artifacts/linkfolder"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22218
+
+[services.development]
+run = "pnpm --filter @workspace/linkfolder run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/linkfolder", "run", "build" ]
+publicDir = "artifacts/linkfolder/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22218"
+BASE_PATH = "/"
