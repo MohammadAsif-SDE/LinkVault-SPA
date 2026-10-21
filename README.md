@@ -27,7 +27,7 @@
 <br />
 
 <p align="center">
-  <img src="public/opengraph.jpg" alt="LinkFolder landing page preview" width="900">
+  <img src="public/preview.gif" alt="LinkFolder landing page preview" width="900">
 </p>
 
 ## Overview
