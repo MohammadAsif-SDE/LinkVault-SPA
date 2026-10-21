@@ -1,4 +1,4 @@
-<h1 align="center">Link Vault</h1>
+<h1 align="center">Vault Tabs</h1>
 
 <p align="center">
   A polished landing page that helps people save, organize, and share links beautifully.
@@ -27,12 +27,12 @@
 <br />
 
 <p align="center">
-  <img src="public/preview.gif" alt="LinkFolder landing page preview" width="900">
+  <img src="public/preview.gif" alt="Vault Tabs landing page preview" width="900">
 </p>
 
 ## Overview
 
-LinkFolder is a responsive marketing landing page for a link-management and Chrome extension product. The visual direction combines a clean editorial layout with bold gradient typography, glassmorphism navigation, animated 3D scenes, and scroll-triggered transitions.
+Vault Tabs is a responsive marketing landing page for a link-management and Chrome extension product. The visual direction combines a clean editorial layout with bold gradient typography, glassmorphism navigation, animated 3D scenes, and scroll-triggered transitions.
 
 The page communicates a simple product promise: save links into smart folders, share them with a team, and turn browser clutter into an organized digital vault.
 
@@ -69,7 +69,7 @@ The current landing page includes:
 
 ## Getting started
 
-From the `linkfolder` directory, install dependencies and start the development server:
+From the `Vault Tabs` directory, install dependencies and start the development server:
 
 ```bash
 npm install
@@ -84,7 +84,7 @@ No backend service or environment variable is required for the current landing p
 
 ## Available scripts
 
-Run these commands from `linkfolder/`:
+Run these commands from `Vault Tabs/`:
 
 | Command | Description |
 | --- | --- |
@@ -102,7 +102,7 @@ PORT=4000 npm run dev
 The Vite base path can be configured with `BASE_PATH` when deploying below a subpath:
 
 ```bash
-BASE_PATH=/linkfolder/ npm run build
+BASE_PATH=/Vault Tabs/ npm run build
 ```
 
 ## Page experience
@@ -195,7 +195,7 @@ Deploy the project to any static hosting provider that supports Vite builds.
 For deployment under a subpath, set `BASE_PATH` during the build. For example:
 
 ```bash
-BASE_PATH=/linkfolder/ npm run build
+BASE_PATH=/Vault Tabs/ npm run build
 ```
 
 The 3D showcase requires WebGL. The page remains usable as a marketing layout in browsers that do not support the full rendering experience, but the 3D scene cannot be displayed without WebGL.
